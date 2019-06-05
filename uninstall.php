@@ -11,8 +11,8 @@ if( ! defined( 'WP_UNINSTALL_PLUGIN')){
 }
 
 // Clear Database stored data
-$books = get_posts( arry( 'post_type' => 'books', 'numberposts' => -1) );
+$jounrals = get_posts( arry( 'post_type' => 'jounrals', 'numberposts' => -1) );
 
-foreach( $books as $book) {
-	wp_delete_posts( $book->ID, true );
+foreach( $jounrals as $journal ) {
+	wp_delete_posts( $journal->ID, true );
 }
