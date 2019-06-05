@@ -1,4 +1,4 @@
-<h1> Readme <h1>
+<h1> Readme </h1>
 === JournalMaker ===
 Contributors: Masahito Takemura
 Tags: journal, diary
@@ -24,5 +24,6 @@ This section describes how to install the plugin and get it working.
 == Frequently Asked Questions ==
 
 = How does it work? =
+From the menu select Journal Entry. This will open a list of journal entries. If there are no previous journal entries the list will be empty.
 
-Use the shortcode [jokes] within a post of page of your website and it will generate a joke
+Each Journal entry will create a permalink that can be used to redirect users to the journal entry.
